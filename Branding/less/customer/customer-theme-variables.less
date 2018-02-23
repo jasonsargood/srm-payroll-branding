@@ -5,7 +5,12 @@
 
 /* CORE COLOURS ======================================================================== */
 /* Main/Accent Colours */
-@themeColour_main:                #cccccc;
+@themeColour_main:                #323D43;
+@themeColour_mainLight:           lighten(@themeColour_main,7.5%);
+@themeColour_mainDark:            darken(@themeColour_main,7.5%);
+@themeColour_accent:              #ed1c24;
+@themeColour_accentLight:         @themeColour_accent;
+@themeColour_accentDark:          @themeColour_accent;
 
 /* Bootstrap Core Colours */
 
@@ -18,6 +23,8 @@
 
 /* BASE UI ============================================================================= */
 /* TYPOGRAPHY -------------------------------- */
+@themeText_fontSize:              12px;
+@themeText_colour:                #252525;
 /* Core */
 
 /* Text Links */
@@ -31,24 +38,50 @@
 
 /* HEADER ------------------------------------ */
 /* Header Core */
-
+@themeHeader_bg:                  #ffffff;
+@themeHeader_separator:           "";
 /* Header Links & Notification */
 
 /* Header Logo */
+@themeHeader_logoBg:              #ffffff;
+@themeHeader_logoBgHover:         @themeHeader_logoBg;
+@themeHeader_logoImageURL:        "../images/srm-intranet-logo.png";
+@themeHeader_logoHomeIconColour:  @themeHeader_textColour;
 
 /* Header Search */
+@themeHeader_searchBG:            #f3f3f3;
+@themeHeader_searchBorder:        #b7b7b7;
+@themeHeader_searchBtnHover:      fade(#FFF,15%);
+@themeHeader_searchBtnIcon:       fade(#FFF,50%);
+@themeHeader_searchBtnHoverFocus: fade(@themeHeader_linkActive,80%);
+@themeHeader_searchBtnIconFocus:  @themeHeader_textColour;
+@themeHeader_searchPlcHolderTxt:  @themeHeader_searchBorder;
+
 
 /* Header Mobile Expanded Menu */
 /* ------------------------------------------- */
 
 /* FOOTER ------------------------------------ */
 /* Footer Core */
+@themeFooter_bg:                  @themeColour_accent;
+@themeFooter_bgImageURL:          "";
+@themeFooter_bgPos:               ~"";
+@themeFooter_bgRpt:               ~"";
+@themeFooter_bgSize:              ~"";
+
+@themeFooter_textColour:          darken(@themeHeader_textColour,25%);
+@themeFooter_separator:           @themeHeader_separator;
+
 
 /* Footer Links */
-/* ------------------------------------------- */
+@themeFooter_linkColour:          @themeHeader_textColour;
+@themeFooter_linkHover:           @themeHeader_linkHover;
+@themeFooter_linkActive:          @themeHeader_linkActive;
+
 
 /* LEFT NAV PANEL ---------------------------- */
 /* Left Panel Core */
+
 
 /* Left Panel Me/My People Tabs */
 
@@ -71,6 +104,7 @@
 
 /* BOOTSTRAP UI ======================================================================== */
 /* BUTTONS ----------------------------------- */
+
 
 /* ------------------------------------------- */
 
