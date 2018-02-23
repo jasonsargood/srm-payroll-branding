@@ -1,0 +1,35 @@
+.daily-timesheet-employee-details {
+  > div {
+    margin-bottom: -10px;
+    padding: 3px;
+    .clearfix();
+
+    > div {
+      .siteFontSize();
+    }
+    > div.media {
+      > nga-photo {
+        width: 25%;
+        min-width: 30px;
+        max-width: 45px;
+        padding-bottom: 5px;
+        .transition(@baseTransition);
+        @media @deviceMobile {
+          min-width: 25px;
+          padding-right: 5px;
+        }
+      }
+      > .media-body {
+        .transition(@baseTransition);
+        > h4 {
+          margin-bottom: 0;
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+}
+
+.daily-timesheet-calendar {
+  padding-right: 68px;
+}
