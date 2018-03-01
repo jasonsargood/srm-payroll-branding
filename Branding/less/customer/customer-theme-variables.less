@@ -81,13 +81,30 @@
 
 /* LEFT NAV PANEL ---------------------------- */
 /* Left Panel Core */
+@themeLeftNav_bg:                           #fff;
+@themeLeftNav_textColour:                   #000;
 
 
 /* Left Panel Me/My People Tabs */
 
 /* Left Panel Nav Menu Links */
+@themeLeftNav_menuLink:                    @themeLeftNav_bg;
+@themeLeftNav_menuLinkSeparator:            darken(@themeLeftNav_bg,2.5%);
+@themeLeftNav_menuLinkHover:                fade(#FFF,10%);
+@themeLeftNav_menuLinkBorderHover:          fade(#FFF,10%);
+@themeLeftNav_menuLinkActive:               #ed1c24;
+@themeLeftNav_menuLinkActiveHover:          @themeColour_accent;
+@themeLeftNav_menuLinkActiveText:           #000;
+@themeLeftNav_menuLinkExpanded:             fade(#FFF,12.5%);
+@themeLeftNav_menuLinkExpandedActiveText:   #000;
+@themeLeftNav_menuLinkExpandedHover:        fade(#FFF,17.5%);
+@themeLeftNav_menuLinkExpandedBorder:       lighten(@themeLeftNav_menuLinkActive,10%);
+@themeLeftNav_menuLinkExpandedLinks:        fade(#FFF,5%);
+
 
 /* Left Panel Dashboard Widget Config */
+
+
 /* ------------------------------------------- */
 
 /* MISC -------------------------------------- */
@@ -133,6 +150,9 @@
 /* ------------------------------------------- */
 
 /* CORE LOGIN STYLES ------------------------- */
+@themeLogin_BGImage_lg:           "../images/srmlogo_01_lg.jpg";
+@themeLogin_BGImage_md:           "../images/srmlogo_01_md.jpg";
+@themeLogin_BGImage_sm:           "../images/srmlogo_01_sm.jpg";
 /* BG Image */
 
 /* Login Content BG */

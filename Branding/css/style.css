@@ -4834,16 +4834,16 @@ body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar {
 body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button {
   width: 9px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:hover {
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(0, 0, 0, 0.35);
 }
 body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:active {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:horizontal:decrement {
   border-radius: 3px 0 0 3px;
@@ -4858,47 +4858,47 @@ body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:ve
   border-radius: 0 0 3px 3px;
 }
 body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:horizontal:decrement {
-  background-image: url('../images/webkitScrollBtn_lightLeft.png');
-}
-body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:horizontal:increment {
-  background-image: url('../images/webkitScrollBtn_lightRight.png');
-}
-body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:horizontal:decrement:hover {
   background-image: url('../images/webkitScrollBtn_darkLeft.png');
 }
-body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:horizontal:increment:hover {
+body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:horizontal:increment {
   background-image: url('../images/webkitScrollBtn_darkRight.png');
 }
+body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:horizontal:decrement:hover {
+  background-image: url('../images/webkitScrollBtn_lightLeft.png');
+}
+body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:horizontal:increment:hover {
+  background-image: url('../images/webkitScrollBtn_lightRight.png');
+}
 body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:vertical:decrement {
-  background-image: url('../images/webkitScrollBtn_lightUp.png');
-}
-body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:vertical:increment {
-  background-image: url('../images/webkitScrollBtn_lightDown.png');
-}
-body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:vertical:decrement:hover {
   background-image: url('../images/webkitScrollBtn_darkUp.png');
 }
-body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:vertical:increment:hover {
+body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:vertical:increment {
   background-image: url('../images/webkitScrollBtn_darkDown.png');
 }
+body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:vertical:decrement:hover {
+  background-image: url('../images/webkitScrollBtn_lightUp.png');
+}
+body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-button:vertical:increment:hover {
+  background-image: url('../images/webkitScrollBtn_lightDown.png');
+}
 body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.3);
   border: 0 none #FFF;
   border-radius: 3px;
 }
 body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.35);
+  background: rgba(0, 0, 0, 0.35);
 }
 body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-thumb:active {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
 body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   border: 0 none #FFF;
   border-radius: 0;
 }
 body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-track:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.15);
 }
 body:not(.accessibilityMode) #wrapper > .left-panel::-webkit-scrollbar-corner {
   background: transparent;
@@ -7494,7 +7494,7 @@ footer.navbar .navbar-text > div {
 /* ===================================================================================== */
 /* LEFT BAR NAV ======================================================================== */
 .left-panel {
-  background-color: #273034;
+  background-color: #fff;
   overflow: auto;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -7510,7 +7510,7 @@ footer.navbar .navbar-text > div {
   position: relative;
 }
 .left-panel .text-muted {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 .left-panel .nav-tabs {
   border: none;
@@ -7534,14 +7534,14 @@ footer.navbar .navbar-text > div {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-  color: #FFF;
+  color: #000;
   text-align: center;
   text-transform: uppercase;
 }
 .left-panel .nav-tabs > li > a {
   background-color: rgba(255, 255, 255, 0.075);
   border-color: rgba(255, 255, 255, 0.125);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   /*font-size:1.1em;*/
   font-weight: 500;
   cursor: pointer;
@@ -7550,26 +7550,26 @@ footer.navbar .navbar-text > div {
 .left-panel .nav-tabs > li > a:focus {
   background-color: rgba(255, 255, 255, 0.175);
   border-color: #ed1c24;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.9);
 }
 .left-panel .nav-tabs > li.active > a {
-  background-color: #22292d;
+  background-color: #f9f9f9;
   border-color: #ed1c24;
-  color: #FFF;
+  color: #000;
 }
 .no-touch .left-panel .nav-tabs > li.active > a:hover,
 .left-panel .nav-tabs > li.active > a:focus {
-  background-color: #22292d;
+  background-color: #f9f9f9;
   border-color: #f03f46;
-  color: #FFF;
+  color: #000;
 }
 .left-panel .id-panel {
   width: 100%;
   padding: 15px;
   display: table;
   table-layout: fixed;
-  background: #22292d;
-  color: #FFF;
+  background: #f9f9f9;
+  color: #000;
 }
 .left-panel .id-panel > div {
   overflow: hidden;
@@ -7619,8 +7619,8 @@ footer.navbar .navbar-text > div {
   /*width:auto;*/
   max-width: 100%;
   padding: 1px;
-  border-color: rgba(255, 255, 255, 0.1);
-  background-color: #22292d;
+  border-color: rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
   background-size: 12px;
   color: inherit;
   font-weight: bold;
@@ -7677,14 +7677,14 @@ footer.navbar .navbar-text > div {
 }
 .left-panel .menuList {
   width: 100%;
-  color: #FFF;
+  color: #000;
 }
 .left-panel .menuList > div {
   position: relative;
   top: 0;
   left: 0;
   z-index: 1;
-  background: #273034;
+  background: #fff;
   /* Links Title */
   /* Nav Links */
 }
@@ -7758,7 +7758,7 @@ footer.navbar .navbar-text > div {
   line-height: 35px;
   display: block;
   background: #ed1c24;
-  color: #FFF;
+  color: #000;
   cursor: pointer;
   visibility: hidden;
 }
@@ -7774,7 +7774,7 @@ footer.navbar .navbar-text > div {
 .left-panel .menuList > div ul > li > span {
   padding: 7.5px 15px;
   display: block;
-  color: #FFF;
+  color: #000;
   text-decoration: none;
   word-wrap: break-word;
   -webkit-transition-property: color, background, border, opacity, padding-left, transform;
@@ -7827,14 +7827,14 @@ footer.navbar .navbar-text > div {
 .left-panel .menuList > div ul > li.active > a,
 .left-panel .menuList > div ul > li.active > span {
   background-color: #ed1c24;
-  color: #FFF;
+  color: #000;
 }
 .no-touch .left-panel .menuList > div ul > li.active > a:hover,
 .left-panel .menuList > div ul > li.active > a:focus {
   background-color: #ed1c24;
 }
 .left-panel .menuList > div > ul > li {
-  border-top: 1px solid #22292d;
+  border-top: 1px solid #f9f9f9;
 }
 .left-panel .menuList > div > ul > li.parent:after {
   width: 35px;
@@ -7904,7 +7904,7 @@ footer.navbar .navbar-text > div {
 .left-panel .menuList > div > ul > li.parent.expanded > a,
 .left-panel .menuList > div > ul > li.parent.expanded > span {
   background: rgba(255, 255, 255, 0.125);
-  color: #FFF;
+  color: #000;
 }
 .no-touch .left-panel .menuList > div > ul > li.parent.expanded > a:hover,
 .no-touch .left-panel .menuList > div > ul > li.parent.expanded > span:hover,
@@ -7963,7 +7963,7 @@ footer.navbar .navbar-text > div {
   display: block;
   position: relative;
   background-color: rgba(255, 255, 255, 0.1);
-  color: #FFF;
+  color: #000;
   overflow: hidden;
   cursor: pointer;
   font-size: 0.8em;
@@ -8013,7 +8013,7 @@ footer.navbar .navbar-text > div {
 .no-touch .left-panel .menuList > div.menuList-dashboard > div.menuList-widgetContainer > div > a:hover,
 .no-touch .left-panel .menuList > div.menuList-dashboard > div.menuList-widgetContainer > div > a:focus {
   background-color: #ed1c24;
-  color: #FFF;
+  color: #000;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   -webkit-transform: translate(0, -2px);
   -ms-transform: translate(0, -2px);
@@ -8031,7 +8031,7 @@ footer.navbar .navbar-text > div {
 }
 .no-touch .left-panel .menuList > div.menuList-dashboard > div.menuList-widgetContainer > div > a:active {
   background-color: #ed1c24;
-  color: #FFF;
+  color: #000;
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   -o-transform: translate(0, 0);
@@ -15291,4 +15291,55 @@ body:not(.accessibilityMode) #wrapper.login > .main-container > .main-panel .log
 }
 header.navbar .navbar-header .navbar-brand > .fa-home {
   color: #ed1c24;
+}
+header.navbar .navbar-content .btn-circle .badge {
+  background: #ed1c24;
+}
+.panel-dashboard > .label {
+  background-color: #ed1c24;
+}
+.left-panel .menuList > div > ul > li.parent.expanded > a,
+.left-panel .menuList > div > ul > li.parent.expanded > span {
+  font-weight: 600;
+}
+#wrapper > .main-container > .main-panel > .container-fluid {
+  padding-top: 60px;
+}
+.left-panel .menuList > div.menuList-dashboard > div.menuList-widgetContainer > div > a:Hover {
+  color: #ed1c24;
+  font-weight: bold;
+}
+.left-panel .menuList > div ul > li > a:Hover {
+  color: #ed1c24;
+  font-weight: bold;
+  text-decoration: none;
+}
+header.navbar .navbar-content .navbar-nav > li > span {
+  color: #000;
+}
+header.navbar .navbar-content .navbar-nav > li > a {
+  color: #000;
+}
+header.navbar .navbar-content .btn-circle {
+  background-color: #888;
+}
+header.navbar .navbar-content .btn-circle:Hover {
+  background-color: #ccc;
+}
+.panel-primary > .panel-heading {
+  border-top: 2px solid #ed1c24;
+}
+.no-touch .left-panel .menuList > div.menuList-dashboard > div.menuList-widgetContainer > div > a:hover,
+.no-touch .left-panel .menuList > div.menuList-dashboard > div.menuList-widgetContainer > div > a:focus {
+  background-color: #fff;
+  color: #ed1c24;
+  font-weight: bold;
+}
+.no-touch .left-panel .menuList > div.menuList-dashboard > div.menuList-widgetContainer > div > a:hover,
+.no-touch .left-panel .menuList > div.menuList-dashboard > div.menuList-widgetContainer > div > a:focus {
+  box-shadow: none;
+  transform: none;
+}
+.left-panel .menuList > div.menuList-dashboard > div.menuList-widgetContainer > div > a {
+  text-decoration: none;
 }
